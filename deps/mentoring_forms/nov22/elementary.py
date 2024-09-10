@@ -19,7 +19,7 @@ now = datetime.now()
 #               Configs                         #
 #################################################
 __db_uri__ = Variable.get("saksham-edu-aggregate")
-__pdf_service_url__ = 'http://68.183.94.187:8000'
+__pdf_service_url__ = 'http://10.0.160.91:8000'
 __mentor_report_hasura_api__ = Variable.get("mentor-report-hasura-api")
 __mentor_report_hasura_secret__ = Variable.get("mentor-report-hasura-secret")
 __table_name__ = 'LM_NOV22_CORE2'
